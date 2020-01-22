@@ -1,20 +1,45 @@
-div{
-height:60px;
+body{
+background: linear-gradient(to right, lightgreen, teal);
+ont-family: Verdana;
+margin:0;
 }
-.header{
-background-color:red;
+header{
+background:rgba(0,0,0,.2);
 grid-area:header;
 }
-.main{
-background-color:yellow;
-grid-area:main;
+header h1{
+color:mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
 }
-.nav{
-background-color:blue;
+header h3{
+Color:navy;
+}
+nav a{
+color:navy;
+}
+main  h2{
+color:navy;
+}
+main p, footer p{
+Color:white;
+}
+main p{
+color:white;
+}
+footer p{
+color:white;
+}
+nav{
+background:rgba(0,0,0,.2);
 grid-area:nav;
 }
-.footer{
-background-color:green;
+main{
+grid-area:main;
+padding:5px;
+background:rgba(0,0,0,.2);
+}
+footer{
+background:rgba(0,0,0,.2);
 grid-area:footer;
 }
 .grid {
