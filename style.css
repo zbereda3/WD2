@@ -10,24 +10,29 @@ grid-area:header;
 header h1{
 color:mediumspringgreen; 
 text-shadow: 2px 2px 5px navy;
+font-size: 5vw;
 }
 header h3{
 Color:navy;
+font-size: 2vw;
 }
 nav a{
 color:navy;
 }
+nav li{
+font-size: 1.5em;
+}
 main  h2{
 color:navy;
-}
-main p, footer p{
-Color:white;
+font-size: 3em;
 }
 main p{
 color:white;
+font-size: 1em;
 }
 footer p{
 color:white;
+font-size: 1em;
 }
 nav{
 background:rgba(0,0,0,.2);
