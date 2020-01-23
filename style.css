@@ -18,9 +18,11 @@ font-size: 2vw;
 }
 nav a{
 color:navy;
+hover: white;
 }
 nav li{
 font-size: 1.5em;
+width: 1fr;
 }
 main  h2{
 color:navy;
@@ -37,6 +39,7 @@ font-size: 1em;
 nav{
 background:rgba(0,0,0,.2);
 grid-area:nav;
+width: auto;
 }
 main{
 grid-area:main;
