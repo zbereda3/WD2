@@ -17,12 +17,22 @@ Color:navy;
 font-size: 2vw;
 }
 nav a{
+text-decoration:none;
 color:navy;
-hover: white;
+}
+a:hover {
+color:white;
 }
 nav li{
 font-size: 1.5em;
-width: 1fr;
+padding:10px 10px;
+list-style-type:none;
+font-size:1.5em;
+font-weight:bold;
+}
+nav ul{
+padding:10px;
+margin:0;
 }
 main  h2{
 color:navy;
