@@ -178,6 +178,47 @@ video {
     display: grid;  /*This needs to be set or it won't center*/
     justify-content:space-around;
 }
+form {
+    background-color:darkseagreen;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+.div1 {
+grid-area:div1;
+}
+.div2 {
+grid-area:div2;
+}
+.call {
+    color:navy;
+    text-align:center;
+    font-size:2em;
+    background-color:darkseagreen;
+    width:60%;
+    padding: 5px 0 0 0;
+    margin:10px auto 0 auto;
+    cursor:pointer;
+}
+
+.phone{
+    color:darkseagreen;
+    background-color:navy;
+    padding:5px;
+    text-align:center;
+    font-size:.75em;
+}
+.button {
+   background-color:navy;
+   color: lightseagreen;
+   padding: 5px 0 0 0;
+}
+input {
+  margin: 1px 0 10px 0;
+}
+
+
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
@@ -262,8 +303,15 @@ grid-template-areas:
     }
 .nestedgrid{
 display:grid;
+grid-template-areas:
 "section"
 "fig1";
+}
+.nestedgrid2 {
+display:grid;
+grid-template-areas:
+"div1"
+"div2";
 }
 
 
@@ -307,6 +355,12 @@ grid-template-areas:
     "header header"
     "nav main"
     "footer footer";
+}
+.nestedgrid2 {
+display:grid;
+grid-template-areas:
+"div1"
+"div2";
 }
 
 /* Below will change from hamburger menu to side navigation*/
@@ -367,7 +421,11 @@ grid-template-areas:
     "nav main"
     "footer footer";
 }
+.nestedgrid2{
+display:grid;
+grid-template-areas:
+"div1 div2";
+    }
 }
-
 
 
