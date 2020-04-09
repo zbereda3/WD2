@@ -29,12 +29,16 @@
  <h2>Contact Us</h2>
  <p>Use this form to allow use to get in touch with you within 1 business day!</p>
  <p>*= Required Field</p>
-   <form class="nestedgrid2">
+     <form
+  	action="https://formspree.io/xrgalkkg"
+  	method="POST"
+	>
+     <div class="nestedgrid2">
       <div class="div1">
 	Name* <br>                                                            
         <input type="text" size="30" name="fullname"><br> 
 	Email* <br>                                            
-	<input type="Email" size="30" name="email"><br> 
+        <label><input type="text" name="_replyto"></label><br> 
 	Phone*<br>                                            
 	<input type="Tel" size="30" name="phone"><br> 
 	Personal website <br>
@@ -42,29 +46,30 @@
       </div>
       <div class="div2">
         Next Destination<br>                   
-        <input type="text" size="30" list="vaca"><br>
-	<datalist id="vaca">
+        <input type="text" size="30" name="vaca"><br>
+	<datalist class="vaca">
   	  <option value="Beijing">
   	  <option value="Lisbon">
   	  <option value="Paris">
   	  <option value="Sydney">
   	  <option value="Tokyo">
-  	  <option value="Washington D.C.">
+  	<option value="Washington D.C.">
 	</datalist>
         Expected date of departure<br>
 	<input type="date" size="10" name="depart"><br>
 	Number of nights on trip<br>
 	<input type="number" size="5" name="night"><br>
         <br>
-	<input type="submit" value="Help Me Book My Trip!" class="button">
-       </div>
-     </form>
-        <div class="call">
-	Or Call Us
-	 <div class="phone">
-	    1-888-TRAVEL1 
-       </div>
+	<button type="submit" size="30">Send</button>
+	</form>
       </div>
+     </form>
+      <div class="call">
+	<h3>Or Call Us</h3>
+	 <div class="phone">
+	    <h4>1-888-TRAVEL1</h4> 
+         </div>
+       </div>
   </main>
   <footer>
         <p> &copy; Travel The World LLC</p>
