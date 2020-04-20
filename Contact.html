@@ -36,17 +36,17 @@
      <div class="nestedgrid2">
       <div class="div1">
 	Name* <br>                                                            
-        <input type="text" size="30" name="fullname"><br> 
+        <input type="text" size="30" autofocus required name="fullname" aria-label="name"><br> 
 	Email* <br>                                            
-        <label><input type="text" name="_replyto"></label><br> 
+        <label><input type="text" size="30" autofocus required name="_replyto" aria-label="email"></label><br> 
 	Phone*<br>                                            
-	<input type="Tel" size="30" name="phone"><br> 
+	<input type="Tel" size="30" autofocus required name="phone" aria-label="phone"><br> 
 	Personal website <br>
-	<input type="URL" size="30" name="website"><br>
+	<input type="URL" size="30" autofocus required name="website" aria-label="website"><br>
       </div>
       <div class="div2">
         Next Destination<br>                   
-        <input type="text" size="30" name="vaca"><br>
+        <input type="text" size="30" autofocus required name="vaca" aria-label="destination"><br>
 	<datalist class="vaca">
   	  <option value="Beijing">
   	  <option value="Lisbon">
@@ -56,11 +56,11 @@
   	<option value="Washington D.C.">
 	</datalist>
         Expected date of departure<br>
-	<input type="date" size="10" name="depart"><br>
+	<input type="date" size="10" autofocus required name="depart" aria-label="date"><br>
 	Number of nights on trip<br>
-	<input type="number" size="5" name="night"><br>
+	<input type="number" size="5" name="night" aria-label="nights"><br>
         <br>
-	<input type="submit" size="30" value="Help Me Book My Trip!">
+	<input type="submit" size="30" value="Help Me Book My Trip!" aria-label="submit">
      </div>
       </div>
       </form>
