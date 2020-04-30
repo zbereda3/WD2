@@ -313,6 +313,13 @@ grid-template-areas:
 "div1"
 "div2";
 }
+.nestedgrid3 {
+display: grid;
+grid-gap:.5em;
+justify-items:center;
+align-items:end;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
 
 
 /*-----------------------Tablet Media Query------------------------*/
